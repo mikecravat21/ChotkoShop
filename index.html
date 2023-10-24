@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Практична робота 19</title>
+</head>
+<body>
+	<i>Завдання 3</i><br>
+	<b>Виконав студент групи КН-I-IV Костик Роман</b>
+  <script>
+  	let ladder = {
+  		step: 0,
+  		up(){
+  			this.step++;
+  			return this;
+  		},
+  		down(){
+  			this.step--;
+  			return this;
+  		},
+  		showStep(){
+  			alert(this.step);
+  			return this;
+  		}
+  	};
+  	ladder.up().up().down().showStep().down().showStep();
+  	  	</script>
+</body>
+</html>
